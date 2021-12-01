@@ -45,4 +45,5 @@ ROI로 지정한 영역에 대해 contour 탐색
 + Python 3.6
 + Tensorflow
 + OpenCV
-
+## yolo weight file ##
+https://drive.google.com/drive/folders/1NCf9wIF43LUdXHq3OmoTCzYD8SjHfZj7?usp=sharing
