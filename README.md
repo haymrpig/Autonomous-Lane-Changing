@@ -18,22 +18,20 @@ ROI로 지정한 영역에 대해 contour 탐색
 이전 프레임에서 찾은 차선과 새로 찾은 contour의 좌표 비교를 통해 가능한 차선 업데이트
 + 실선/점선 구분  
 찾은 차선이 ROI내에서 차지하는 길이를 이용하여 실선/점선 구분  
+<img src="https://user-images.githubusercontent.com/71866756/144281129-fed4fad6-0caa-4760-b11e-ccc912d832d6.jpg" width="480" height="240"/> 
 
-![뒷면1](https://user-images.githubusercontent.com/71866756/144281129-fed4fad6-0caa-4760-b11e-ccc912d832d6.jpg)
 ### 겍체 탐색 및 거리 측정 ###
 + 객체 탐색  
 전/후방 카메라를 이용하여 차량 탐색 
 + 거리 측정  
 카메라 정보(focal, tilt, height) + 탐색한 차량의 bbox를 이용하여 실거리 측정
-
-![앞면 bdd1](https://user-images.githubusercontent.com/71866756/144281330-e04b6fdc-68ac-48e0-85ef-67a47216a069.JPG)
+<img src="https://user-images.githubusercontent.com/71866756/144281330-e04b6fdc-68ac-48e0-85ef-67a47216a069.JPG" width="480" height="240"/>
 
 ### 속도 가/감속 ###
 + 감속  
 현재 차선에 위치한 앞차량의 거리가 일정 거리 안으로 들어올 경우 거리에 따라 감속
 + 가속  
 현재 차선에 위치한 앞차량의 거리가 멀어지는 경우 가속
-
 ### 차선 변경 알고리즘 ###
 + 차선 변경 가능 조건  
 차선이 점선 + 변경할 차선의 차량이 먼 경우
