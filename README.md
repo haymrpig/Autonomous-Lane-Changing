@@ -47,6 +47,7 @@ ROI로 지정한 영역에 대해 contour 탐색
   <img src="https://user-images.githubusercontent.com/71866756/144720457-edd14abe-a866-4eda-8f8e-6fd909e177a6.gif" width="360" height="180"/>
 
 ## Demonstration video ##
+https://drive.google.com/file/d/10ikZcMgekXO4tdsyZN-u7_9gi46xKH9t/view?usp=sharing
 ## Env
 + Python 3.6
 + OpenCV
